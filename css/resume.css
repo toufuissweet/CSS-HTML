@@ -1,0 +1,132 @@
+.resume {
+    width: 100%;
+    height: 100%;
+}
+
+.profile {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25%;
+    height: 100%;
+    background: url(../img/profile-bg.jpg) no-repeat;
+    background-size: cover; /* only support IE9+ */
+    border-right: 1px solid #5dc9c3;
+}
+
+.profile .left-bar {
+    width: 15%;
+    height: 100%;
+    background-color: #5dc9c3;
+	float: left;
+}
+
+.profile .content-mask {
+    margin-left: 15%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, .8);
+}
+
+.profile .avatar {
+    height: 45%;
+	padding-top: 25%;
+	text-align: center;
+}
+
+.profile .avatar img {
+    width: 135px;
+	height: 135px;
+	border-radius: 50%;
+}
+
+.profile .title {
+    padding: 10px 0;
+    letter-spacing: 5px;
+	color: #5dc9c3;
+}
+
+.profile .want-job {
+    padding: 5px 0;
+	color: #999;
+}
+
+.profile .content {
+	height: 55%;
+}
+
+.profile .content li {
+	height: 14%;
+	padding-left: 20%;
+}
+
+.profile .content .icon {
+    width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+    color: #fff;
+	background-color: #5dc9c3;
+}
+
+.profile .content span {
+	padding-left: 10px;
+	color: #999;
+}
+
+.profile .content span a {
+    color: #0366d6;
+}
+
+.detail {
+    position: relative;
+	left: 25%;
+	width: 71%;
+	height: 100%;
+}
+
+.detail .nav {
+	width: 95%;
+	margin: 2% auto;
+}
+
+.detail .nav li {
+	width: 16.6%;
+	float: left;
+	background-color: #f5f5f5;
+}
+
+.detail .nav li a {
+	display: block;
+	padding: 30px 0;
+	font-size: 16px;
+	text-align: center;
+	color: rgba(0, 0, 0, .25);
+    text-decoration: none;
+}
+
+.detail .nav li a:hover {
+	background-color: #eee;
+}
+
+.detail .nav .icon {
+	color: #5dc9c3;
+}
+
+.detail .nav li.active a {
+	color: #fff;
+	background-color: #5dc9c3;
+}
+
+.detail .nav li.active .icon {
+	color: #fff;
+}
+
+.resume .right-bar {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 4%;
+	height: 100%;
+	background-color: #5dc9c3;
+}

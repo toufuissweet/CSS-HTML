@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft Yahei", Verdana, Geneva, sans-serif;
+    font-size: 14px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a, a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+
+.clearfloat::after {
+    content: "";
+    display: block;
+    clear: both;
+}
